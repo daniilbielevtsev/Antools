@@ -4,6 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Antools</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./crs/css/reset.css" />
+    <link rel="stylesheet" href="./crs/css/style.css" />
+    <!-- font-family: "Poppins", sans-serif; -->
+    <!-- font-family: "Lora", serif; -->
+    <!-- font-family: "Roboto", sans-serif; -->
   </head>
   <body>
     <header class="header">
@@ -32,7 +50,11 @@
             Development tools
           </p>
           <div class="hero-button-container">
-            <p class="hero-button-text">find more than 430+ tools...</p>
+            <input
+              class="header-input"
+              type="text"
+              placeholder="find more than 430+ tools..."
+            />
             <button class="hero-button">Search</button>
           </div>
         </section>
@@ -51,6 +73,7 @@
               <p class="Application-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
+              <p class="kard-text">Visit</p>
             </article>
             <article class="navigation-kards">
               <div class="navigation-card">
@@ -60,6 +83,7 @@
               <p class="Application-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
+              <button class="Application-button-carts">Visit</button>
             </article>
             <article class="navigation-kards">
               <div class="navigation-card">
@@ -69,6 +93,7 @@
               <p class="Application-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
+              <p class="kard-text">Visit</p>
             </article>
             <article class="navigation-kards">
               <div class="navigation-card">
@@ -78,6 +103,7 @@
               <p class="Application-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
+              <p class="kard-text">Visit</p>
             </article>
             <article class="navigation-kards">
               <div class="navigation-card">
@@ -87,6 +113,7 @@
               <p class="Application-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
+              <p class="kard-text">Visit</p>
             </article>
             <article class="navigation-kards">
               <div class="navigation-card">
@@ -96,6 +123,7 @@
               <p class="Application-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
+              <p class="kard-text">Visit</p>
             </article>
           </div>
           <button class="Application-button">Load more</button>
@@ -104,16 +132,32 @@
           <h3 class="name-Application-titel">Trusted more than 150+ brand</h3>
           <ul class="Application-list">
             <li class="Application-item">
-              <img class="Application-name-photo" src="" alt="" />
+              <img
+                class="Application-name-photo"
+                src="./crs/css/imeges/microsoft.png"
+                alt="microsoft"
+              />
             </li>
             <li class="Application-item">
-              <img class="Application-name-photo" src="" alt="" />
+              <img
+                class="Application-name-photo"
+                src="./crs/css/imeges/google.png"
+                alt="google"
+              />
             </li>
             <li class="Application-item">
-              <img class="Application-name-photo" src="" alt="" />
+              <img
+                class="Application-name-photo"
+                src="./crs/css/imeges/slack.png"
+                alt="slack"
+              />
             </li>
             <li class="Application-item">
-              <img class="Application-name-photo" src="" alt="" />
+              <img
+                class="Application-name-photo"
+                src="./crs/css/imeges/word.png"
+                alt="word"
+              />
             </li>
           </ul>
         </section>
@@ -197,12 +241,37 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <ul class="footer-navigation-list">
-          <li><a class="footer-navigation-itam" href="#"></a></li>
-          <li><a class="footer-navigation-itam" href="#"></a></li>
-          <li><a class="footer-navigation-itam" href="#"></a></li>
-          <li><a class="footer-navigation-itam" href="#"></a></li>
-        </ul>
+        <div class="footer-information">
+          <a href="index.html" class="footer-logo">antools.</a>
+          <p class="information-head">Copyright 2021. Antools</p>
+          <p class="information-text">
+            Antool is a web collection of information on paid or free Design and
+            Development tools
+          </p>
+        </div>
+        <div class="footer-info">
+          <h2 class="info-titel">Contact Us</h2>
+          <ul class="info-list">
+            <li class="info-item">+621987463</li>
+            <li class="info-item">M Building, No.10 A</li>
+            <li class="info-item">antools@awesome.com</li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <h2 class="info-titel">Categories Us</h2>
+          <ul class="info-list">
+            <li class="info-item">Design</li>
+            <li class="info-item">Development</li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <h2 class="info-titel">Company Info</h2>
+          <ul class="info-list">
+            <li class="info-item">About Us</li>
+            <li class="info-item">Our Partners</li>
+            <li class="info-item">Blog</li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
