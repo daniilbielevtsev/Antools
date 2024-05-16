@@ -139,8 +139,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 15px;
-  padding-bottom: 20px;
 }
 .Stylization-titel {
   font-weight: 500;
@@ -170,5 +168,77 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 214%;
+  color: var(--link-color);
+}
+.information-text {
+  padding-left: 120px;
+  padding-top: 110px;
+  padding-bottom: 46px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 214%;
+  letter-spacing: 0.01em;
+  color: var(--text-color-aplicationcolor);
+  display: flex;
+  align-items: center;
+}
+.information-section::before {
+  content: "";
+  background-image: url(./imeges/manphoto.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 399px;
+  height: 492px;
+}
+.bay-titel {
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: var(--color-header-button);
+}
+.bay-text {
+  line-height: 167%;
+  text-align: center;
+  color: var(--link-color);
+}
+.footer-logo {
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--color-textPrimeri);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.footer-logo::before {
+  content: "";
+  background-image: url(./imeges/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 8px;
+  width: 38px;
+  height: 38px;
+}
+.information-section {
+  display: flex;
+}
+/* =============================foote========================================= */
+.info-titel {
+  font-size: 20px;
+  color: var(--color-header-button);
+}
+.info-item {
+  font-size: 16px;
+  color: var(--link-color);
+}
+.information-head {
+  font-size: 16px;
+  color: var(--color-header-button);
+}
+.information-text-antool {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 179%;
   color: var(--link-color);
 }
