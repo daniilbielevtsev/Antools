@@ -25,40 +25,60 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <a href="#" class="logo">antools.</a>
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="nav-header-link" href="#">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="nav-header-link navigation-header-link" href="#"
+                >Categories</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="nav-header-link" href="#">My Collections</a>
+            </li>
+            <li class="header-item">
+              <a class="nav-header-link" href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="header-list">
-          <li class="header-item">Home</li>
-          <li class="header-item">Categories</li>
-          <li class="header-item">My Collections</li>
-          <li class="header-item">Blog</li>
-        </ul>
-        <ul class="header-button-list">
-          <li class="header-button-item">Login</li>
-          <li class="header-button-item">
-            <button class="header-button">Sign Up</button>
+          <li class="header-item">
+            <a class="header-item-link" href="#">Login</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#">Sign Up</a>
           </li>
         </ul>
       </div>
     </header>
+    <!-- ----------------------------------------main----------------------------------- -->
     <main class="main">
       <div class="container">
         <section class="hero-section">
-          <h1 class="hero-titel">Awesome tools for Designer & Developer.</h1>
+          <h1 class="hero-titel">
+            Awesome tools for Designer & Developer<span class="hero-titel-dot"
+              >.</span
+            >
+          </h1>
           <p class="hero-text">
             Antool is a web collection of information on paid or free Design and
             Development tools
           </p>
-          <div class="hero-button-container">
+          <form class="hero-search" action="#">
             <input
-              class="header-input"
+              class="search-input"
               type="text"
               placeholder="find more than 430+ tools..."
             />
-            <button class="hero-button">Search</button>
-          </div>
+            <button class="search-button">Search</button>
+          </form>
         </section>
-        <section class="section-navigation">
+        <!-- ---------------------------------------------tools--------------------------------------------- -->
+        <section class="tools">
           <h2 class="navigation-titel">Most Popular Tools</h2>
           <p class="navigation-text">
             Tools for the best Designers and Developers most popularly used in
@@ -96,7 +116,7 @@
               <p class="kard-text">Visit</p>
             </article>
             <article class="navigation-kards">
-              <div class="navigation-card">
+              <div class="tool-heading">
                 <h2 class="card-titel">Notion</h2>
                 <p class="card-text">Free & Paid</p>
               </div>
@@ -128,7 +148,8 @@
           </div>
           <button class="Application-button">Load more</button>
         </section>
-        <section class="name-Application">
+        <!-- -------------------------------name-application--------------------------------------- -->
+        <section class="name-application">
           <h3 class="name-Application-titel">Trusted more than 150+ brand</h3>
           <ul class="Application-list">
             <li class="Application-item">
@@ -161,7 +182,8 @@
             </li>
           </ul>
         </section>
-        <section class="section-Stylization">
+        <!-- -------------------------------newcomer------------------------------------- -->
+        <section class="newcomer">
           <ul class="Stylization-list">
             <li class="Stylization-item">
               <h2 class="Stylization-titel">Newcomer Tools</h2>
@@ -169,7 +191,8 @@
                 Wow! see the latest update of the most recommended tools from
                 reliable designers and developers
               </p>
-              <button class="Stylization-button">Explore more</button>
+              <a href=""></a>
+              <!-- <button class="stylization-button">Explore more</button> -->
             </li>
             <li class="Stylization-item">
               <div class="Stylization-container">
@@ -181,6 +204,7 @@
                   <p class="cart-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
+                  <p class="text-Stylization">Visit</p>
                 </article>
               </div>
               <div class="Stylization-container">
@@ -192,6 +216,7 @@
                   <p class="cart-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
+                  <button class="button-subtext">Visit</button>
                 </article>
               </div>
               <div class="Stylization-container">
@@ -203,6 +228,7 @@
                   <p class="cart-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
+                  <p class="text-Stylization">Visit</p>
                 </article>
               </div>
               <div class="Stylization-container">
@@ -214,12 +240,15 @@
                   <p class="cart-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
+                  <p class="text-Stylization">Visit</p>
                 </article>
               </div>
             </li>
           </ul>
         </section>
-        <section class="information-section">
+        <!---------------------------------------devel--------------------------------------->
+        <section class="develo">
+          <div><img class="develo-photo" src="" alt="" /></div>
           <p class="information-text">
             Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
             reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla
@@ -228,7 +257,7 @@
             Occaecat aute officia excepteur non laboris id qui ad.
           </p>
         </section>
-        <section class="bay-section">
+        <section class="subscribe">
           <div class="bay-container">
             <h2 class="bay-titel">Become a contributor?</h2>
             <p class="bay-text">
@@ -239,6 +268,7 @@
         </section>
       </div>
     </main>
+    <!-- ------------------------------------footer--------------------------------------->
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-information">

@@ -9,6 +9,7 @@
   --color-header-button: #fdf5ff;
   --text-color-aplicationcolor: rgba(255, 255, 255, 0.9);
   --aplication-color: rgba(255, 255, 255, 0.8);
+  --seachcolor: #283036;
 }
 .container {
   max-width: 1254px;
@@ -23,22 +24,62 @@ body {
   font-weight: 500;
   font-size: 18px;
 }
+/* ====================================header==================================== */
+.header-container {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
 .logo {
   font-weight: 600;
   font-size: 22px;
   color: var(--color-textPrimeri);
+  display: flex;
+  align-items: center;
+  gap: 21px;
 }
-.header-item {
+.logo::before {
+  content: "";
+  background-image: url(../css/imeges/logophoto.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+}
+.nav-header-link {
   font-weight: 500;
   font-size: 16px;
   color: var(--link-color);
 }
-.header-button-item {
+.navigation-header-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--link-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navigation-header-link::after {
+  content: "";
+  background-image: url(../css/imeges/strelkebotom.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 9px;
+  height: 5px;
+}
+.header-item-link {
   font-weight: 600;
   font-size: 16px;
   color: var(--link-color);
 }
-.header-button {
+.header-link {
   font-weight: 600;
   font-size: 16px;
   color: var(--color-header-button);
@@ -46,30 +87,76 @@ body {
   border-radius: 8px;
   padding: 12px 28px;
 }
-/* =============================================heafer===================================== */
+/* =============================================header===================================== */
 .hero-titel {
+  margin-bottom: 30px;
   font-weight: 500;
   font-size: 50px;
   line-height: 140%;
   color: var(--color-header-button);
 }
+.hero-titel-dot {
+  color: var(--background-button);
+}
 .hero-text {
   font-weight: 400;
   line-height: 167%;
   color: var(--link-color);
+  margin-bottom: 60px;
+  width: 487px;
+  height: 60px;
 }
-.header-input {
+.hero-search {
+  border-radius: 15px;
+  background-color: var(--seachcolor);
+  width: 497px;
+  height: 64px;
+  justify-content: space-between;
+  display: flex;
+  gap: 111px;
+  align-items: center;
+}
+.hero-section {
+  width: 600px;
+  height: 354px;
+  margin-top: 104px;
+  padding-bottom: 170px;
+}
+.search-input {
+  border-color: var(--seachcolor);
+  background-color: var(--seachcolor);
+  border: 0px;
   font-weight: 400;
   font-size: 14px;
   color: var(--link-color);
+  width: 227px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  margin-left: 18px;
+  gap: 13px;
 }
-.hero-button {
+.search-input::before {
+  content: "";
+  background-image: url(../css/imeges/lypa.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.search-button {
   font-weight: 600;
   font-size: 16px;
   color: var(--color-textPrimeri);
   background-color: var(--background-button);
   border-radius: 8px;
   padding: 12px 36px;
+  width: 130px;
+  height: 48px;
+  margin-right: 11px;
+  border: 0px;
 }
 /* =================================================hero-main=============================================== */
 .navigation-titel {
@@ -182,7 +269,7 @@ body {
   display: flex;
   align-items: center;
 }
-.information-section::before {
+/* .information-section::before {
   content: "";
   background-image: url(./imeges/manphoto.png);
   background-position: center;
@@ -190,11 +277,22 @@ body {
   background-size: cover;
   width: 399px;
   height: 492px;
-}
+} */
 .bay-titel {
   font-size: 48px;
   line-height: 130%;
   text-align: center;
+  color: var(--color-header-button);
+}
+.text-Stylization {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--link-color);
+}
+.button-subtext {
+  border-radius: 8px;
+  background-color: #ff6e30;
+  padding: 9px 35px;
   color: var(--color-header-button);
 }
 .bay-text {
