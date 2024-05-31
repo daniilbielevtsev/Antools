@@ -54,7 +54,7 @@ body {
 }
 .logo::before {
   content: "";
-  background-image: url(/imeges/logophoto.svg);
+  background-image: url(/imeges/headerlocgo.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;
@@ -511,7 +511,7 @@ body {
 .develo-text {
   padding-left: 55px;
   padding-top: 60px;
-  background-image: url(/imeges/“.png);
+  background-image: url(/imeges/“devvelo.svg);
   background-position: top left;
   background-repeat: no-repeat;
   width: 393px;
@@ -541,6 +541,7 @@ body {
   color: var(--color-header-button);
 }
 .subscribe-text {
+  padding-top: 25px;
   line-height: 167%;
   text-align: center;
   color: var(--link-color);
@@ -596,7 +597,7 @@ body {
 }
 .footer-logo::before {
   content: "";
-  background-image: url(/imeges/logo.png);
+  background-image: url(/imeges/logotypfooter.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
