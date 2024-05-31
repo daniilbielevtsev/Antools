@@ -548,6 +548,22 @@ body {
   max-width: 427px;
   margin: auto;
 }
+.btn {
+  background-image: url(/imeges/toolsslikes.svg);
+  width: 41px;
+  height: 41px;
+  background-position: center;
+}
+.btn:hover {
+  background-image: url(/imeges/likestwoo.svg);
+  background-color: var(--color-bg-buton);
+}
+.end :hover {
+  contain: "";
+  background-image: url(/imeges/radlike.svg);
+  width: 42px;
+  height: 42px;
+}
 .become-form {
   margin: 0 auto;
   margin-top: 100px;
