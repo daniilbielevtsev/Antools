@@ -17,7 +17,6 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* background-image: url(../css/imeges/bgphotohero.svg); */
 }
 .hero-container {
   margin-top: 60px;
@@ -151,28 +150,17 @@ body {
   background-position: left;
   padding-left: 35px;
 }
-/* .search-input::before {
-  content: "";
-  background-image: url(../css/imeges/lypa.png);
-  background-repeat: no-repeat;
-  width: 25px;
-  height: 24px;
-  background-position: center;
-  background-size: cover;
-} */
 .search-button {
   font-weight: 600;
   font-size: 16px;
   color: var(--color-textPrimeri);
   background-color: var(--background-button);
-  border-radius: 8px;
   padding: 12px 36px;
   margin-right: 11px;
 }
 .search-button:hover {
   background-color: var(--background);
-  border-radius: 8px;
-  border: 2px solid var(--background-button);
+  border: 1px solid var(--background-button);
 }
 /* =================================================hero-main=============================================== */
 .tools-titel {
@@ -352,13 +340,6 @@ body {
   padding: 17px 38px;
   text-align: center;
 }
-/* .tools-kards :hover {
-  background-image: url(../css/imeges/bgimgtools.png);
-  background-repeat: no-repeats;
-  background-position: center;
-  width: 392px;
-  height: 294px;
-} */
 .partners {
   margin-top: 200px;
   margin-bottom: 200px;
@@ -429,11 +410,63 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.newcomer-karts {
-  width: 288px;
-  height: 284px;
+.search-footer {
+  display: flex;
+  align-items: center;
+  gap: 43px;
+}
+.search-footer-list {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+}
+.photo-container-one {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.photo-container-one::before {
+  content: "";
+  background-image: url(/imeges/firstphotozeplin.png);
+  width: 64px;
+  height: 64px;
+}
+.photo-container-two {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.photo-container-two::before {
+  content: "";
+  background-image: url(/imeges/phototwonewcomer.png);
+  width: 64px;
+  height: 64px;
+}
+.photo-container-three {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.photo-container-three::before {
+  content: "";
+  background-image: url(/imeges/newcomertoolbox.png);
+  width: 64px;
+  height: 64px;
+}
+.photo-container-four {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.photo-container-four::before {
+  content: "";
+  background-image: url(/imeges/newcomerprocreate.png);
+  width: 64px;
+  height: 64px;
 }
 .cart-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-weight: 400;
   font-size: 14px;
   line-height: 214%;
@@ -441,6 +474,34 @@ body {
   width: 245px;
   height: 60px;
 }
+.newcomer-container-end {
+  display: flex;
+  gap: 24px;
+}
+.newcomer-karts {
+  padding: 30px 30px;
+  margin-bottom: 50px;
+}
+.newcomer-karts:hover {
+  background-image: url(/imeges/newcomerbg.png);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.newcomer-card-end {
+  width: 106px;
+  height: 42px;
+  color: var(--link-color);
+  background-color: var(--background);
+}
+.newcomer-card-end:hover {
+  width: 106px;
+  height: 42px;
+  background-color: var(--background-button);
+  color: var(--color-header-button);
+}
+
 .develo {
   gap: 57px;
   display: flex;
@@ -448,13 +509,18 @@ body {
   align-items: center;
 }
 .develo-text {
+  padding-left: 55px;
+  padding-top: 60px;
+  background-image: url(/imeges/“.png);
+  background-position: top left;
+  background-repeat: no-repeat;
   width: 393px;
   height: 180;
   font-weight: 400;
   font-size: 14px;
   line-height: 214%;
   letter-spacing: 0.01em;
-  color: var(--text-color-aplicationcolor);
+  color: rgba(255, 255, 255, 0.78);
 }
 .subscribe-titel {
   margin-top: 250px;
@@ -499,8 +565,13 @@ body {
   height: 48px;
   margin-right: 12px;
   color: var(--color-header-button);
-  padding: 12px 36px;
   background-color: var(--background-button);
+}
+.becoma-button:hover {
+  background-color: var(--background);
+  width: 130px;
+  height: 48px;
+  border: 1px solid var(--background-button);
 }
 .become-input {
   font-weight: 400;
@@ -534,7 +605,6 @@ body {
   height: 38px;
 }
 .footer-container {
-  margin-top: 310px;
   display: flex;
   margin-bottom: 98px;
 }
@@ -567,9 +637,11 @@ body {
   gap: 115px;
   display: flex;
 }
-/* .linea {
-   margin: auto;
-  margin-top: 240px; 
+.linea {
+  margin: auto;
+  margin-top: 240px;
   border: 0.5px solid rgba(255, 255, 255, 0.15);
   width: 1440px;
-}  */
+  height: 0.5;
+  margin-bottom: 70px;
+}
