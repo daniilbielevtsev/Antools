@@ -72,7 +72,7 @@ body {
   color: var(--link-color);
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 .navigation-header-link::after {
   content: "";
