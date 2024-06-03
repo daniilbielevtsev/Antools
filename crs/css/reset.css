@@ -103,7 +103,11 @@ button {
   border: 0;
   font-family: inherit;
   border-radius: 8px;
+  transition: 0.5s;
 }
 input {
   border: 0;
+}
+a {
+  transition: 0.5s;
 }

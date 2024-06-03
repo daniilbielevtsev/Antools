@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ANTOOLS</title>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -17,6 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@500&family=Roboto&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="./crs/css/reset.css" />
     <link rel="stylesheet" href="./crs/css/style.css" />
     <!-- font-family: "Poppins", sans-serif; -->
@@ -27,34 +29,39 @@
     <header class="header">
       <!-- <div class="header-container"> -->
       <div class="container header-container">
-        <a href="#" class="logo">antools.</a>
-        <nav class="header-nav">
-          <ul class="header-list">
-            <li class="header-item">
-              <a class="nav-header-link" href="#">Home</a>
-            </li>
-            <li class="header-item">
-              <a class="nav-header-link navigation-header-link" href="#"
-                >Categories</a
-              >
-            </li>
-            <li class="header-item">
-              <a class="nav-header-link" href="#">My Collections</a>
-            </li>
-            <li class="header-item">
-              <a class="nav-header-link" href="#">Blog</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-item-link" href="#">Login</a>
-          </li>
-          <li class="header-item">
-            <!-- <a class="header-link" href="#">Sign Up</a> -->
-            <a class="header-item-link" href="#">Sign Up</a>
-          </li>
-        </ul>
+        <div class="content">
+          <div>
+            <a href="#" class="logo">antools.</a>
+          </div>
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li class="header-item">
+                <a class="nav-header-link" href="#">Home</a>
+              </li>
+              <li class="header-item">
+                <a class="nav-header-link navigation-header-link" href="#"
+                  >Categories</a
+                >
+              </li>
+              <li class="header-item">
+                <a class="nav-header-link" href="#">My Collections</a>
+              </li>
+              <li class="header-item">
+                <a class="nav-header-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </nav>
+          <div>
+            <ul class="header-list">
+              <li class="header-item">
+                <a class="header-item-link" href="#">Login</a>
+              </li>
+              <li class="header-item">
+                <a class="header-item-link" href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <!-- ----------------------------------------main----------------------------------- -->
@@ -71,6 +78,7 @@
             Development tools
           </p>
           <form class="hero-search" action="#">
+            <img class="seach-img" src="./imeges/searchlypa.svg" alt="lypa" />
             <input
               class="search-input"
               type="text"
@@ -553,9 +561,10 @@
               </li>
               <li class="info-item">
                 <a class="info-link" href="#"
-                  ><address href=" M Building, No.10 A"></address>
-                  M Building, No.10 A</a
-                >
+                  ><address href=" M Building, No.10 A">
+                    M Building, No.10 A
+                  </address>
+                </a>
               </li>
               <li class="info-item">
                 <a class="info-link" href="mailto:antools@awesome.com"

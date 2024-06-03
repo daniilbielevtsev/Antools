@@ -10,6 +10,7 @@
   --text-color-aplicationcolor: rgba(255, 255, 255, 0.9);
   --aplication-color: rgba(255, 255, 255, 0.8);
   --seachcolor: #283036;
+  --colorbgtools: rgba(40, 48, 54, 0.6);
 }
 .container {
   max-width: 1254px;
@@ -33,7 +34,7 @@ body {
   font-size: 18px;
 }
 /* ====================================header==================================== */
-.header-container {
+.content {
   margin-top: 24px;
   display: flex;
   justify-content: space-between;
@@ -75,12 +76,12 @@ body {
 }
 .navigation-header-link::after {
   content: "";
-  background-image: url(/imeges/strelkebotom.png);
+  background-image: url(/imeges/strelka.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 9px;
-  height: 5px;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
 }
 .header-item-link {
   font-weight: 600;
@@ -89,10 +90,10 @@ body {
 }
 .header-item-link:hover {
   font-weight: 600;
+  border-radius: 8px;
   font-size: 16px;
   color: var(--color-header-button);
   background-color: var(--background-button);
-  border-radius: 8px;
   padding: 12px 28px;
 }
 .header-aplication-list {
@@ -125,15 +126,16 @@ body {
   background-color: var(--seachcolor);
   width: 497px;
   height: 64px;
-  justify-content: space-between;
   display: flex;
-  gap: 111px;
   align-items: center;
 }
 .hero-section {
   max-width: 600px;
   padding-top: 44px;
   padding-bottom: 170px;
+}
+.seach-img {
+  padding-left: 18px;
 }
 .search-input {
   background-color: var(--seachcolor);
@@ -142,13 +144,13 @@ body {
   color: var(--link-color);
   width: 227px;
   height: 24px;
-  margin-left: 18px;
   display: flex;
+  margin-left: 13px;
+  margin-right: 111px;
   align-items: center;
-  background-image: url(/imeges/lypa.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  padding-left: 35px;
+}
+.search-input:focus {
+  outline: none;
 }
 .search-button {
   font-weight: 600;
@@ -200,11 +202,6 @@ body {
   color: var(--color-textPrimeri);
   background-color: var(--background-button);
 }
-/* .card-footer-photo:hover {
-  background-image: url(/imeges/liketwo.png);
-  width: 42px;
-  height: 42px;
-} */
 .tools-container {
   display: flex;
   justify-content: center;
@@ -216,11 +213,16 @@ body {
   padding-bottom: 100px;
 }
 .tools-kards:hover {
-  background-image: url(/imeges/bgimgtools.png);
   border-radius: 15px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgba(40, 48, 54, 0.6);
+  background-image: radial-gradient(
+    ellipse at top right,
+    rgba(254, 135, 84, 0.307),
+    rgba(255, 255, 255, 0) 20%
+  );
+  backdrop-filter: blur(100px);
+  transform: translateY(-20px);
+  transition: 0.3s;
 }
 .card-titel {
   font-weight: 500;
@@ -340,6 +342,10 @@ body {
   padding: 17px 38px;
   text-align: center;
 }
+.tools-button:hover {
+  background-color: var(--background-button);
+  color: var(--color-textPrimeri);
+}
 .partners {
   margin-top: 200px;
   margin-bottom: 200px;
@@ -387,6 +393,10 @@ body {
   background-color: var(--background-button);
   color: var(--color-textPrimeri);
   padding: 15px 40px;
+}
+.newcomer-link:hover {
+  background-color: var(--color-header-button);
+  color: var(--background-button);
 }
 .newcomer-name {
   font-size: 24px;
@@ -549,10 +559,12 @@ body {
   margin: auto;
 }
 .btn {
-  background-image: url(/imeges/toolsslikes.svg);
-  width: 41px;
+  background-image: url(/imeges/likes.svg);
   height: 41px;
+  width: 41px;
   background-position: center;
+  background-color: var(--background);
+  background-repeat: no-repeat;
 }
 .btn:hover {
   background-image: url(/imeges/likestwoo.svg);
@@ -597,7 +609,9 @@ body {
   background-color: var(--seachcolor);
   margin-left: 25px;
 }
-
+.become-input:focus {
+  outline: none;
+}
 .information-section {
   display: flex;
 }
