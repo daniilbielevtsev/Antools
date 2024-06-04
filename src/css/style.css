@@ -55,7 +55,7 @@ body {
 }
 .logo::before {
   content: "";
-  background-image: url(/imeges/headerlocgo.svg);
+  background-image: url(../imeges/img/headerlocgo.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;
