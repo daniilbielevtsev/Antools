@@ -76,7 +76,7 @@ body {
 }
 .navigation-header-link::after {
   content: "";
-  background-image: url(/imeges/strelka.svg);
+  background-image: url(../imeges/img/strelka.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -238,7 +238,7 @@ body {
 }
 .titel-text-cardone::before {
   content: "";
-  background-image: url(/imeges/toolsfirsticon.svg);
+  background-image: url(../imeges/img/toolsfirsticon.svg);
   background-repeat: no-repeat;
   width: 76px;
   height: 66px;
@@ -272,7 +272,7 @@ body {
 }
 .titel-text-cardtwo::before {
   content: "";
-  background-image: url(/imeges/phototwo.svg);
+  background-image: url(../imeges/img/phototwo.svg);
   background-repeat: no-repeat;
   width: 76px;
   height: 66px;
@@ -281,7 +281,7 @@ body {
 }
 .titel-text-cardthree::before {
   content: "";
-  background-image: url(/imeges/toolsphototree.svg);
+  background-image: url(../imeges/img/toolsphototree.svg);
   background-repeat: no-repeat;
   width: 76px;
   height: 66px;
@@ -290,7 +290,7 @@ body {
 }
 .titel-text-cardfour::before {
   content: "";
-  background-image: url(/imeges/toolsnotion.png);
+  background-image: url(../imeges/img/toolsnotion.png);
   background-repeat: no-repeat;
   width: 76px;
   height: 66px;
@@ -299,7 +299,7 @@ body {
 }
 .titel-text-cardfive::before {
   content: "";
-  background-image: url(/imeges/fivephototools.svg);
+  background-image: url(../imeges/img/fivephototools.svg);
   background-repeat: no-repeat;
   width: 76px;
   height: 66px;
@@ -308,7 +308,7 @@ body {
 }
 .titel-text-cardsix::before {
   content: "";
-  background-image: url(/imeges/sixphototools.svg);
+  background-image: url(../imeges/img/sixphototools.svg);
   background-repeat: no-repeat;
   width: 76px;
   height: 66px;
@@ -348,7 +348,7 @@ body {
   animation: bounce 1s;
 }
 .btn {
-  background-image: url(/imeges/likes.svg);
+  background-image: url(../imeges/img/likes.svg);
   height: 42px;
   width: 42px;
   background-position: center;
@@ -356,7 +356,7 @@ body {
   background-repeat: no-repeat;
 }
 .btn:hover {
-  background-image: url(/imeges/likestwoo.svg);
+  background-image: url(../imeges/img/likestwoo.svg);
   background-position: center;
   width: 42px;
   height: 42px;
@@ -369,7 +369,7 @@ body {
   margin-bottom: 200px;
   width: 1224px;
   height: 253px;
-  background-image: url(/imeges/tin.png);
+  background-image: url(../imeges/img/tin.png);
 }
 .partners-titel {
   padding-top: 55px;
@@ -455,7 +455,7 @@ body {
 }
 .photo-container-one::before {
   content: "";
-  background-image: url(/imeges/firstphotozeplin.png);
+  background-image: url(../imeges/img/firstphotozeplin.png);
   width: 64px;
   height: 64px;
 }
@@ -466,7 +466,7 @@ body {
 }
 .photo-container-two::before {
   content: "";
-  background-image: url(/imeges/phototwonewcomer.png);
+  background-image: url(../imeges/img/phototwonewcomer.png);
   width: 64px;
   height: 64px;
 }
@@ -477,7 +477,7 @@ body {
 }
 .photo-container-three::before {
   content: "";
-  background-image: url(/imeges/newcomertoolbox.png);
+  background-image: url(../imeges/img/newcomertoolbox.png);
   width: 64px;
   height: 64px;
 }
@@ -488,7 +488,7 @@ body {
 }
 .photo-container-four::before {
   content: "";
-  background-image: url(/imeges/newcomerprocreate.png);
+  background-image: url(../imeges/img/newcomerprocreate.png);
   width: 64px;
   height: 64px;
 }
@@ -540,14 +540,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/imeges/twostrelki.svg);
+  background-image: url(../imeges/img/twostrelki.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .develo-text {
   padding-left: 55px;
   padding-top: 60px;
-  background-image: url(/imeges/“devvelo.svg);
+  background-image: url(../imeges/img/“devvelo.svg);
   background-position: top left;
   background-repeat: no-repeat;
   width: 393px;
@@ -656,7 +656,7 @@ body {
 }
 .footer-logo::before {
   content: "";
-  background-image: url(/imeges/logotypfooter.svg);
+  background-image: url(../imeges/img/logotypfooter.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
