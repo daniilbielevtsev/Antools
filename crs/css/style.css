@@ -346,6 +346,23 @@ body {
   background-color: var(--background-button);
   color: var(--color-textPrimeri);
 }
+.btn {
+  background-image: url(/imeges/likes.svg);
+  height: 42px;
+  width: 42px;
+  background-position: center;
+  background-color: var(--background);
+  background-repeat: no-repeat;
+}
+.btn:hover {
+  background-image: url(/imeges/likestwoo.svg);
+  background-position: center;
+  width: 42px;
+  height: 42px;
+  box-shadow: 0px 1px 13px -1px rgba(0, 0, 0, 0.364);
+  -webkit-box-shadow: 0px 1px 13px -1px rgba(0, 0, 0, 0.336);
+  -moz-box-shadow: 0px 1px 13px -1px rgba(0, 0, 0, 0.362);
+}
 .partners {
   margin-top: 200px;
   margin-bottom: 200px;
@@ -493,11 +510,6 @@ body {
   margin-bottom: 50px;
 }
 .newcomer-karts:hover {
-  /* background-image: url(/imeges/newcomerbg.png);
-  border-radius: 15px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
   border-radius: 15px;
   background: rgba(40, 48, 54, 0.6);
   background-image: radial-gradient(
@@ -567,24 +579,6 @@ body {
   color: var(--link-color);
   max-width: 427px;
   margin: auto;
-}
-.btn {
-  background-image: url(/imeges/likes.svg);
-  height: 41px;
-  width: 41px;
-  background-position: center;
-  background-color: var(--background);
-  background-repeat: no-repeat;
-}
-.btn:hover {
-  background-image: url(/imeges/likestwoo.svg);
-  background-color: var(--color-bg-buton);
-}
-.end :hover {
-  contain: "";
-  background-image: url(/imeges/radlike.svg);
-  width: 42px;
-  height: 42px;
 }
 .become-form {
   margin: 0 auto;
