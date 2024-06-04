@@ -240,90 +240,12 @@ body {
   display: flex;
   align-items: center;
 }
-.titel-text-cardone {
-  gap: 30px;
+
+.toolstop-container {
   display: flex;
-  align-items: center;
-}
-.titel-text-cardone::before {
-  content: "";
-  background-image: url(../imeges/img/toolsfirsticon.svg);
-  background-repeat: no-repeat;
-  width: 76px;
-  height: 66px;
-  background-size: contain;
-  background-position: center;
-}
-.titel-text-cardtwo {
   gap: 30px;
-  display: flex;
-  align-items: center;
 }
-.titel-text-cardthree {
-  gap: 30px;
-  display: flex;
-  align-items: center;
-}
-.titel-text-cardfour {
-  gap: 30px;
-  display: flex;
-  align-items: center;
-}
-.titel-text-cardfive {
-  gap: 30px;
-  display: flex;
-  align-items: center;
-}
-.titel-text-cardsix {
-  gap: 30px;
-  display: flex;
-  align-items: center;
-}
-.titel-text-cardtwo::before {
-  content: "";
-  background-image: url(../imeges/img/phototwo.svg);
-  background-repeat: no-repeat;
-  width: 76px;
-  height: 66px;
-  background-size: contain;
-  background-position: center;
-}
-.titel-text-cardthree::before {
-  content: "";
-  background-image: url(../imeges/img/toolsphototree.svg);
-  background-repeat: no-repeat;
-  width: 76px;
-  height: 66px;
-  background-size: contain;
-  background-position: center;
-}
-.titel-text-cardfour::before {
-  content: "";
-  background-image: url(../imeges/img/toolsnotion.png);
-  background-repeat: no-repeat;
-  width: 76px;
-  height: 66px;
-  background-size: contain;
-  background-position: center;
-}
-.titel-text-cardfive::before {
-  content: "";
-  background-image: url(../imeges/img/fivephototools.svg);
-  background-repeat: no-repeat;
-  width: 76px;
-  height: 66px;
-  background-size: contain;
-  background-position: center;
-}
-.titel-text-cardsix::before {
-  content: "";
-  background-image: url(../imeges/img/sixphototools.svg);
-  background-repeat: no-repeat;
-  width: 76px;
-  height: 66px;
-  background-size: contain;
-  background-position: center;
-}
+
 .cards-container {
   margin-top: 90px;
 }
@@ -457,49 +379,9 @@ body {
   display: flex;
   align-items: center;
 }
-.photo-container-one {
+.newcomer-top-container {
   display: flex;
-  align-items: center;
   gap: 30px;
-}
-.photo-container-one::before {
-  content: "";
-  background-image: url(../imeges/img/firstphotozeplin.png);
-  width: 64px;
-  height: 64px;
-}
-.photo-container-two {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-.photo-container-two::before {
-  content: "";
-  background-image: url(../imeges/img/phototwonewcomer.png);
-  width: 64px;
-  height: 64px;
-}
-.photo-container-three {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-.photo-container-three::before {
-  content: "";
-  background-image: url(../imeges/img/newcomertoolbox.png);
-  width: 64px;
-  height: 64px;
-}
-.photo-container-four {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-.photo-container-four::before {
-  content: "";
-  background-image: url(../imeges/img/newcomerprocreate.png);
-  width: 64px;
-  height: 64px;
 }
 .cart-text {
   margin-top: 30px;
