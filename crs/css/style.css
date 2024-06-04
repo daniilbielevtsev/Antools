@@ -345,6 +345,7 @@ body {
 .tools-button:hover {
   background-color: var(--background-button);
   color: var(--color-textPrimeri);
+  animation: bounce 1s;
 }
 .btn {
   background-image: url(/imeges/likes.svg);
@@ -539,6 +540,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(/imeges/twostrelki.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .develo-text {
   padding-left: 55px;
@@ -554,8 +558,26 @@ body {
   letter-spacing: 0.01em;
   color: rgba(255, 255, 255, 0.78);
 }
+.skrol-container {
+  margin-top: 100px;
+  margin-bottom: 250px;
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+.srol-one {
+  border-radius: 4px;
+  width: 44px;
+  height: 8px;
+  background-color: var(--background-button);
+}
+.srol-two {
+  border-radius: 4px;
+  width: 44px;
+  height: 6px;
+  background: #283036;
+}
 .subscribe-titel {
-  margin-top: 250px;
   font-size: 48px;
   line-height: 130%;
   text-align: center;
