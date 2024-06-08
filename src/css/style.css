@@ -11,6 +11,7 @@
   --aplication-color: rgba(255, 255, 255, 0.8);
   --seachcolor: #283036;
   --colorbgtools: rgba(40, 48, 54, 0.6);
+  --bgdevelo: rgba(44, 53, 61, 0.2);
 }
 .container {
   max-width: 1254px;
@@ -301,7 +302,15 @@ body {
   margin-bottom: 200px;
   width: 1224px;
   height: 253px;
-  background-image: url(../imeges/img/tin.png);
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background: var(--bgdevelo);
+  backdrop-filter: blur(50px);
+  background-image: radial-gradient(
+    circle at top left,
+    rgba(255, 94, 0, 0.159),
+    rgba(44, 53, 61, 0.2) 10%
+  );
 }
 .partners-titel {
   padding-top: 55px;
