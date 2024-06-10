@@ -67,6 +67,10 @@ body {
   font-size: 16px;
   color: var(--link-color);
 }
+.nav-header-link:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
 .navigation-header-link {
   font-weight: 500;
   font-size: 16px;
@@ -201,6 +205,9 @@ body {
   gap: 12px;
 }
 .card-footer-button {
+  cursor: pointer;
+  width: 106px;
+  height: 42px;
   padding: 9px 35px;
   background-color: var(--background);
   font-weight: 600;
@@ -311,6 +318,10 @@ body {
     rgba(255, 94, 0, 0.159),
     rgba(44, 53, 61, 0.2) 10%
   );
+}
+.partners-photo:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 .partners-titel {
   padding-top: 55px;
