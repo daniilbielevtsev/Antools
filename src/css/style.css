@@ -186,6 +186,9 @@ body {
   text-align: center;
   color: var(--color-textPrimeri);
 }
+.tools-titel:hover {
+  color: var(--background-button);
+}
 .tools-text {
   margin-top: 25px;
   margin: auto;
@@ -247,7 +250,13 @@ body {
   display: flex;
   align-items: center;
 }
-
+.card-titel:hover {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--background-button);
+  display: flex;
+  align-items: center;
+}
 .toolstop-container {
   display: flex;
   gap: 30px;
